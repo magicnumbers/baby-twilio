@@ -34,7 +34,7 @@ type Request struct {
 
 // NewDecoder is simply a wrapper around `Request.Decode()`. Use it like so:
 //
-//     req := twilio.NewDecoder(htmlRequest)
+//     req, _ := twilio.NewDecoder(htmlRequest)
 //     fmt.Println("Hey look, this message is from", req.From)
 //
 func NewDecoder(r *http.Request) (*Request, error) {
