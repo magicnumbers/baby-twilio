@@ -4,8 +4,6 @@ Baby Twilio
 Most of the time with Twilio we want to do one of two things: send an SMS and
 parse incoming SMSes. This package makes it easy to to both.
 
-But hold on a sec: this is still in development.
-
 
 ## Simple Example
 
@@ -27,3 +25,6 @@ func main() {
 	}
 }
 ```
+
+For more thorough examples, including ones that don‘t require setting
+environment variables, see the `examples` directory.
