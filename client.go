@@ -58,7 +58,7 @@ func (c Client) checkSettings() error {
 				errs += ", " + e[i]
 			}
 		}
-		errText := "Some thigns aren't set: " + errs
+		errText := "some things aren't set: " + errs
 		return errors.New(errText)
 	}
 
