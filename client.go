@@ -104,6 +104,5 @@ func (c Client) SendSMS(to string, msg string) (twilioResponse Response, err err
 		return twilioResponse, err
 	}
 
-	err = twilioResponse.CheckError()
-	return twilioResponse, err
+	return twilioResponse, twilioResponse.CheckError()
 }
