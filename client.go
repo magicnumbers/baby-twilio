@@ -43,7 +43,7 @@ func (c Client) checkSettings() error {
 		e = append(e, "auth token")
 	}
 	if c.PhoneNumber == "" {
-		e = append(e, "phone number")
+		e = append(e, "Twilio phone number")
 	}
 
 	if len(e) > 0 {
