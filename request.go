@@ -52,6 +52,7 @@ func NewDecoder(r *http.Request) (*Request, error) {
 }
 
 // Decode decodes our struct
+// TODO: Fix cyclomatic complexity
 func (r *Request) Decode(queryParams []byte) error {
 
 	const tagName = "url"
