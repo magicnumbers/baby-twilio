@@ -31,7 +31,7 @@ func main() {
 
 	res, err = client.SendSMS(to, "Oh, hello.")
 
-	// Print out the response regardless of weather or not there was an error
+	// Print out the response regardless of whether or not there was an error
 	if b, err := json.MarshalIndent(res, "", "  "); err == nil {
 		fmt.Printf("\nTwilio says:\n\n")
 		fmt.Printf("%s\n\n", string(b))
