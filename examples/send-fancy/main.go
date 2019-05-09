@@ -36,7 +36,7 @@ func main() {
 		fmt.Printf("\nTwilio says:\n\n")
 		fmt.Printf("%s\n\n", string(b))
 	} else {
-		fmt.Println("Couldn‘t Marshal response into JSON ", err)
+		fmt.Println("Couldn‘t marshal response into JSON ", err)
 		os.Exit(1)
 	}
 
