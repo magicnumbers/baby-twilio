@@ -2,7 +2,7 @@ Baby Twilio
 ===========
 
 Most of the time with Twilio we want to do one of two things: send an SMS and
-parse incoming SMSes. This package makes it easy to to both.
+parse incoming SMSes. This package makes it easy to do both.
 
 
 ## Sending SMSes
