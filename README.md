@@ -66,13 +66,11 @@ func main() {
 }
 ```
 
-For local development we recommend [ngrok][ng] or [localtunnel][lt]
+For local development we recommend [ngrok][ng].
 
 
 ## License
 
 MIT
 
-
 [ng]: https://ngrok.com
-[lt]: https://localtunnel.github.io/
