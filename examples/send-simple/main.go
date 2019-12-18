@@ -11,10 +11,11 @@ package main
 */
 
 import (
-	twilio "baby-twilio"
 	"bufio"
 	"fmt"
 	"os"
+
+	twilio "github.com/meowgorithm/baby-twilio"
 )
 
 func main() {

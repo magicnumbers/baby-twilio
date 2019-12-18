@@ -1,11 +1,12 @@
 package main
 
 import (
-	"baby-twilio"
 	"bufio"
 	"encoding/json"
 	"fmt"
 	"os"
+
+	twilio "github.com/meowgorithm/baby-twilio"
 )
 
 func main() {

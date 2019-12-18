@@ -8,9 +8,10 @@ package main
 */
 
 import (
-	twilio "baby-twilio"
 	"log"
 	"net/http"
+
+	twilio "github.com/meowgorithm/baby-twilio"
 )
 
 func main() {

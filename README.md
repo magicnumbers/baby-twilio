@@ -39,7 +39,7 @@ in the Twilio admin interface and parsing incoming requests as such:
 package main
 
 import (
-	"baby-twilio"
+	"github.com/meowgorithm/baby-twilio"
 	"log"
 	"net/http"
 )
